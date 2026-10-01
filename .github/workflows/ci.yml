@@ -1,0 +1,23 @@
+name: Source and privacy checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Audit tracked source and metadata
+        run: python3 tools/audit_repository.py
+      - name: Test offline pipeline
+        run: python3 -m unittest discover -s tools -p 'test_pipeline.py' -v
+      - name: Test shared Swift core
+        run: swift test -c release --scratch-path .local/SwiftPM

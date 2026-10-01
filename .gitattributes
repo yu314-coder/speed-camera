@@ -1,0 +1,10 @@
+* text=auto
+*.swift text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+*.plist text eol=lf
+*.db binary
+*.png binary
+tools/fixtures/speed_references/*.bin binary

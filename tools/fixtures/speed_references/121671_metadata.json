@@ -1,0 +1,13 @@
+{
+  "modifiedDate": "2025-12-12 15:10:07",
+  "distribution": [
+    {
+      "resourceFormat": "CSV",
+      "resourceDownloadUrl": "https://data.taipei/api/dataset/ba35cc86-d2b7-4367-ab26-d0032967050f/resource/bf38a8ff-8af3-447d-a1b4-962019fb10cb/download"
+    },
+    {
+      "resourceFormat": "CSV",
+      "resourceDownloadUrl": "https://data.taipei/api/dataset/ba35cc86-d2b7-4367-ab26-d0032967050f/resource/7bc423ef-4cc4-4c8b-a31d-f257b5680609/download"
+    }
+  ]
+}

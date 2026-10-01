@@ -1,0 +1,829 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F4DEB23ACFD03E517ED0B84 /* SpeedlimitNotificationContent.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 83EAC1EE536A6283BA9D0884 /* SpeedlimitNotificationContent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		14E8961BC4360BBB3D79D74D /* GovernmentUpdateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB91E4170ED84F5B8ECEA1CD /* GovernmentUpdateTests.swift */; };
+		1CB7CB26DBF1ED08E3555284 /* SearchInteractionProbe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10832F93BA6A94940BD1B366 /* SearchInteractionProbe.swift */; };
+		21C1463BBFDE042ACF0F6251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B4B6DE7D8FCD19A98DCF27E /* Assets.xcassets */; };
+		2A734DA08C63E5020606B0B3 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278CF368A597052F8C2F50BC /* MapScreen.swift */; };
+		2AC050C22D05A1D699D060F1 /* SnapshotDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E5B42A62E9CD12192DB91AF /* SnapshotDecoder.swift */; };
+		3B4B9ECF7B3B943F9177E7E1 /* SpeedlimitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AB1CE1548363E7C1C13D9D4 /* SpeedlimitApp.swift */; };
+		4281792DBE50A09AF4FC0940 /* SearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B31D9FDE8EB4793A59A125 /* SearchService.swift */; };
+		4D953681F3C87FDD47400EAC /* CoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958486EA64183FA5F0178100 /* CoreTests.swift */; };
+		4DD50576F124DBF9BCD4EB98 /* NavigationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D5069EC1987264A0EB4D57 /* NavigationService.swift */; };
+		4E32678666BC3567AFCE1002 /* SpeedReferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D795AA5B92FB7A87FA788C3 /* SpeedReferenceTests.swift */; };
+		5B312E637385B321CA3B226A /* CCTVLiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A35B984CDE891D4A675BE30 /* CCTVLiveTests.swift */; };
+		5BD664FBC2D6754E7127ED5B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BF42C47D6093A128F235873 /* libsqlite3.tbd */; };
+		6114C612944221F024D7B3A1 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45442E6464FB0CD112EAC6DE /* NotificationService.swift */; };
+		673FC7956280B62CD130F0B2 /* SpeedReferenceScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCEE50DA2F81E17569BEB9C /* SpeedReferenceScreen.swift */; };
+		6E0A35DE244355E4F3EF2177 /* TrafficStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC0A38E6F18EC047E9686FC /* TrafficStore.swift */; };
+		6E96F784E5131825B62D4A4F /* NativeSearchField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE410EB6A7D3E479051ECA46 /* NativeSearchField.swift */; };
+		7213D2E876166D179DCB92A4 /* GPSDestinationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57417AE5CF95AC64E3714BF2 /* GPSDestinationTests.swift */; };
+		72FCCA45AC54B658D06525B1 /* CCTVService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E92ED02766CF0BD3485102 /* CCTVService.swift */; };
+		7ED4CCAF25D2C18A4ADBB3AB /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9DDFC66CB141ECD4E7D4FB4 /* LocationService.swift */; };
+		7F0E4E4006746EA277295042 /* SectionOverlayPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB5921411603133C22BEB3C /* SectionOverlayPlan.swift */; };
+		8535222BDBF7C12B0B35F2B1 /* LoadingSafety.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02398EECA1D18D475497540 /* LoadingSafety.swift */; };
+		A202A51EE0856B2B6B6027EB /* Matching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A31FA9BCE32D02EE40E172 /* Matching.swift */; };
+		A544B18EABA6060088D6B22D /* BackgroundDataRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD0675D059B84F3ED1C811 /* BackgroundDataRefresh.swift */; };
+		A93FECE771FC5536E71AA302 /* LoadingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F47BD7EE78FFF4F5D72161E /* LoadingTests.swift */; };
+		AFF1A49ECE8F5C92CB385632 /* CameraDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2536971C4642B23FE55FEF0 /* CameraDetails.swift */; };
+		B01DDF546D1D5EF287BDBE10 /* TaiwanMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2271EE00B9D0190783CC4B2 /* TaiwanMapView.swift */; };
+		B253DA9B69FC1206A21377A2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 18385623200CCDBC739DBC67 /* PrivacyInfo.xcprivacy */; };
+		B491144AC982E81B41C32901 /* CCTVMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7838AFB16ACAE3F43D2954 /* CCTVMapTests.swift */; };
+		B5287CC272CA4488A19C82E2 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C1B3B3D8196A2C48ACCC209 /* AppModel.swift */; };
+		C911BCD3EC064528126C38CF /* CCTVLiveStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22C75A2950A7D5E8E2453C6 /* CCTVLiveStream.swift */; };
+		CB92A4092C67FF4EE403A4C0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01899271826D2AB35A83CB9 /* Models.swift */; };
+		CC7D28D87706EC838A6357A2 /* GPSRecoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0265E5EBEA7CF01055F420 /* GPSRecoveryTests.swift */; };
+		D5532360196D0F04286EE9FE /* osm_section_display_shapes.json in Resources */ = {isa = PBXBuildFile; fileRef = 8908BA2B02A9E8071486B863 /* osm_section_display_shapes.json */; };
+		D673741ECEA8FAAD78326A7D /* tw_traffic.db in Resources */ = {isa = PBXBuildFile; fileRef = EA4DA62917130B5527DE41B0 /* tw_traffic.db */; };
+		D8D27AE12AF2B8D64BF4DCF3 /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4A4DA90B6ADBC0FEF46D9A /* Geometry.swift */; };
+		DC571CE4378213C11352B9A7 /* JPEGFrameParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D8FC3217693E7CD0956046 /* JPEGFrameParser.swift */; };
+		DFAAE693C897DD7D229D648B /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70726CBCCF144A327FFBEF7E /* SettingsScreen.swift */; };
+		E1EB25761B308D2E286749DD /* GovernmentDataUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2906D83EA6886AB1CEA3F2E8 /* GovernmentDataUpdater.swift */; };
+		E9289D90A116E61811291FB4 /* GovernmentFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318C0CB2247FCFCEB17A2A19 /* GovernmentFeed.swift */; };
+		EBBF29E982818A523997AC83 /* MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE10C1657D8CD9E6A9FB004 /* MapUITests.swift */; };
+		F402B147E2C66B52785BFA95 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C3B53BE18861F334A6F44B /* NotificationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2363C8E99DC9E10766CDB29D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF5950B9130AF153D43A0B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C739DF5D60A5A630E426AF7C;
+			remoteInfo = SpeedlimitNotificationContent;
+		};
+		4985A025A0389196A4C625DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF5950B9130AF153D43A0B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2898916E1C9173DFC3958739;
+			remoteInfo = Speedlimit;
+		};
+		FAF80ACBFE987C876F7A4E77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1DF5950B9130AF153D43A0B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2898916E1C9173DFC3958739;
+			remoteInfo = Speedlimit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7E8A2285C5A8C8889558262A /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0F4DEB23ACFD03E517ED0B84 /* SpeedlimitNotificationContent.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		05E92ED02766CF0BD3485102 /* CCTVService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTVService.swift; sourceTree = "<group>"; };
+		0F47BD7EE78FFF4F5D72161E /* LoadingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingTests.swift; sourceTree = "<group>"; };
+		10832F93BA6A94940BD1B366 /* SearchInteractionProbe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractionProbe.swift; sourceTree = "<group>"; };
+		18385623200CCDBC739DBC67 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		1A35B984CDE891D4A675BE30 /* CCTVLiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTVLiveTests.swift; sourceTree = "<group>"; };
+		1B4B6DE7D8FCD19A98DCF27E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26D8FC3217693E7CD0956046 /* JPEGFrameParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPEGFrameParser.swift; sourceTree = "<group>"; };
+		278CF368A597052F8C2F50BC /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		2906D83EA6886AB1CEA3F2E8 /* GovernmentDataUpdater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovernmentDataUpdater.swift; sourceTree = "<group>"; };
+		2BE10C1657D8CD9E6A9FB004 /* MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUITests.swift; sourceTree = "<group>"; };
+		2BF42C47D6093A128F235873 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		2E5B42A62E9CD12192DB91AF /* SnapshotDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapshotDecoder.swift; sourceTree = "<group>"; };
+		318C0CB2247FCFCEB17A2A19 /* GovernmentFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovernmentFeed.swift; sourceTree = "<group>"; };
+		3AB1CE1548363E7C1C13D9D4 /* SpeedlimitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedlimitApp.swift; sourceTree = "<group>"; };
+		42C3B53BE18861F334A6F44B /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		45442E6464FB0CD112EAC6DE /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		5039682F78F387ED0909E4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		57417AE5CF95AC64E3714BF2 /* GPSDestinationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSDestinationTests.swift; sourceTree = "<group>"; };
+		58A31FA9BCE32D02EE40E172 /* Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matching.swift; sourceTree = "<group>"; };
+		5D795AA5B92FB7A87FA788C3 /* SpeedReferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReferenceTests.swift; sourceTree = "<group>"; };
+		61D5069EC1987264A0EB4D57 /* NavigationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationService.swift; sourceTree = "<group>"; };
+		6C1B3B3D8196A2C48ACCC209 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		70726CBCCF144A327FFBEF7E /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		83EAC1EE536A6283BA9D0884 /* SpeedlimitNotificationContent.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = SpeedlimitNotificationContent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8908BA2B02A9E8071486B863 /* osm_section_display_shapes.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = osm_section_display_shapes.json; sourceTree = "<group>"; };
+		8B7838AFB16ACAE3F43D2954 /* CCTVMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTVMapTests.swift; sourceTree = "<group>"; };
+		8D1499A3614B8AF738EA7A3B /* SpeedlimitTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SpeedlimitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		958486EA64183FA5F0178100 /* CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreTests.swift; sourceTree = "<group>"; };
+		9DFD0675D059B84F3ED1C811 /* BackgroundDataRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundDataRefresh.swift; sourceTree = "<group>"; };
+		A2271EE00B9D0190783CC4B2 /* TaiwanMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanMapView.swift; sourceTree = "<group>"; };
+		A2536971C4642B23FE55FEF0 /* CameraDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDetails.swift; sourceTree = "<group>"; };
+		A7B31D9FDE8EB4793A59A125 /* SearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchService.swift; sourceTree = "<group>"; };
+		A9F6D9FFB1C4EF4238D49E0C /* Speedlimit.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Speedlimit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC0A38E6F18EC047E9686FC /* TrafficStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficStore.swift; sourceTree = "<group>"; };
+		BE410EB6A7D3E479051ECA46 /* NativeSearchField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NativeSearchField.swift; sourceTree = "<group>"; };
+		BE601CC25A790858B82B40C0 /* SpeedlimitUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SpeedlimitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D02398EECA1D18D475497540 /* LoadingSafety.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSafety.swift; sourceTree = "<group>"; };
+		D9DDFC66CB141ECD4E7D4FB4 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		DD0265E5EBEA7CF01055F420 /* GPSRecoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPSRecoveryTests.swift; sourceTree = "<group>"; };
+		E01899271826D2AB35A83CB9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E090A2B0A88A1A9AE6E40A61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E22C75A2950A7D5E8E2453C6 /* CCTVLiveStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTVLiveStream.swift; sourceTree = "<group>"; };
+		EA4DA62917130B5527DE41B0 /* tw_traffic.db */ = {isa = PBXFileReference; path = tw_traffic.db; sourceTree = "<group>"; };
+		ECCEE50DA2F81E17569BEB9C /* SpeedReferenceScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReferenceScreen.swift; sourceTree = "<group>"; };
+		EF4A4DA90B6ADBC0FEF46D9A /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		EFB5921411603133C22BEB3C /* SectionOverlayPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionOverlayPlan.swift; sourceTree = "<group>"; };
+		FB91E4170ED84F5B8ECEA1CD /* GovernmentUpdateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GovernmentUpdateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		149123BA43AA7D1CC064CEC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BD664FBC2D6754E7127ED5B /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08F842AD80129A7D030A05E7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8908BA2B02A9E8071486B863 /* osm_section_display_shapes.json */,
+				EA4DA62917130B5527DE41B0 /* tw_traffic.db */,
+			);
+			name = Resources;
+			path = Speedlimit/Resources;
+			sourceTree = "<group>";
+		};
+		12288362CEF5426DDF539A63 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6C1B3B3D8196A2C48ACCC209 /* AppModel.swift */,
+				EF4A4DA90B6ADBC0FEF46D9A /* Geometry.swift */,
+				D02398EECA1D18D475497540 /* LoadingSafety.swift */,
+				58A31FA9BCE32D02EE40E172 /* Matching.swift */,
+				E01899271826D2AB35A83CB9 /* Models.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		25815F7C68393323E8ABDD74 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				A2536971C4642B23FE55FEF0 /* CameraDetails.swift */,
+				278CF368A597052F8C2F50BC /* MapScreen.swift */,
+				BE410EB6A7D3E479051ECA46 /* NativeSearchField.swift */,
+				10832F93BA6A94940BD1B366 /* SearchInteractionProbe.swift */,
+				EFB5921411603133C22BEB3C /* SectionOverlayPlan.swift */,
+				70726CBCCF144A327FFBEF7E /* SettingsScreen.swift */,
+				ECCEE50DA2F81E17569BEB9C /* SpeedReferenceScreen.swift */,
+				A2271EE00B9D0190783CC4B2 /* TaiwanMapView.swift */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		5F4B09948817BFC64AAE9CDD /* Speedlimit */ = {
+			isa = PBXGroup;
+			children = (
+				1B4B6DE7D8FCD19A98DCF27E /* Assets.xcassets */,
+				E090A2B0A88A1A9AE6E40A61 /* Info.plist */,
+				18385623200CCDBC739DBC67 /* PrivacyInfo.xcprivacy */,
+				3AB1CE1548363E7C1C13D9D4 /* SpeedlimitApp.swift */,
+				12288362CEF5426DDF539A63 /* Core */,
+				25815F7C68393323E8ABDD74 /* Features */,
+				816A33A5EE9599C1F3C2D682 /* Services */,
+			);
+			path = Speedlimit;
+			sourceTree = "<group>";
+		};
+		718AFB0021ED203BEBD43959 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9F6D9FFB1C4EF4238D49E0C /* Speedlimit.app */,
+				83EAC1EE536A6283BA9D0884 /* SpeedlimitNotificationContent.appex */,
+				8D1499A3614B8AF738EA7A3B /* SpeedlimitTests.xctest */,
+				BE601CC25A790858B82B40C0 /* SpeedlimitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		816A33A5EE9599C1F3C2D682 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9DFD0675D059B84F3ED1C811 /* BackgroundDataRefresh.swift */,
+				E22C75A2950A7D5E8E2453C6 /* CCTVLiveStream.swift */,
+				05E92ED02766CF0BD3485102 /* CCTVService.swift */,
+				2906D83EA6886AB1CEA3F2E8 /* GovernmentDataUpdater.swift */,
+				318C0CB2247FCFCEB17A2A19 /* GovernmentFeed.swift */,
+				26D8FC3217693E7CD0956046 /* JPEGFrameParser.swift */,
+				D9DDFC66CB141ECD4E7D4FB4 /* LocationService.swift */,
+				61D5069EC1987264A0EB4D57 /* NavigationService.swift */,
+				45442E6464FB0CD112EAC6DE /* NotificationService.swift */,
+				A7B31D9FDE8EB4793A59A125 /* SearchService.swift */,
+				2E5B42A62E9CD12192DB91AF /* SnapshotDecoder.swift */,
+				BDC0A38E6F18EC047E9686FC /* TrafficStore.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8308AE2460F9D49E11210AE4 /* SpeedlimitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE10C1657D8CD9E6A9FB004 /* MapUITests.swift */,
+			);
+			path = SpeedlimitUITests;
+			sourceTree = "<group>";
+		};
+		95EBEE936C29662CD6E2BF44 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BF42C47D6093A128F235873 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF25BB0F6B7843CA0C5FECDB /* SpeedlimitNotificationContent */ = {
+			isa = PBXGroup;
+			children = (
+				5039682F78F387ED0909E4D3 /* Info.plist */,
+				42C3B53BE18861F334A6F44B /* NotificationViewController.swift */,
+			);
+			path = SpeedlimitNotificationContent;
+			sourceTree = "<group>";
+		};
+		DFA5F56611D5C251026E0E1A /* SpeedlimitTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A35B984CDE891D4A675BE30 /* CCTVLiveTests.swift */,
+				8B7838AFB16ACAE3F43D2954 /* CCTVMapTests.swift */,
+				958486EA64183FA5F0178100 /* CoreTests.swift */,
+				FB91E4170ED84F5B8ECEA1CD /* GovernmentUpdateTests.swift */,
+				57417AE5CF95AC64E3714BF2 /* GPSDestinationTests.swift */,
+				DD0265E5EBEA7CF01055F420 /* GPSRecoveryTests.swift */,
+				0F47BD7EE78FFF4F5D72161E /* LoadingTests.swift */,
+				5D795AA5B92FB7A87FA788C3 /* SpeedReferenceTests.swift */,
+			);
+			path = SpeedlimitTests;
+			sourceTree = "<group>";
+		};
+		E77C929886D79BAEC00A8BA9 = {
+			isa = PBXGroup;
+			children = (
+				08F842AD80129A7D030A05E7 /* Resources */,
+				5F4B09948817BFC64AAE9CDD /* Speedlimit */,
+				DF25BB0F6B7843CA0C5FECDB /* SpeedlimitNotificationContent */,
+				DFA5F56611D5C251026E0E1A /* SpeedlimitTests */,
+				8308AE2460F9D49E11210AE4 /* SpeedlimitUITests */,
+				95EBEE936C29662CD6E2BF44 /* Frameworks */,
+				718AFB0021ED203BEBD43959 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2898916E1C9173DFC3958739 /* Speedlimit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C758F3E7B32DC77718653DF9 /* Build configuration list for PBXNativeTarget "Speedlimit" */;
+			buildPhases = (
+				B02404028006AC9797B38E3A /* Sources */,
+				B671D4384C131481F5C14B54 /* Resources */,
+				149123BA43AA7D1CC064CEC7 /* Frameworks */,
+				7E8A2285C5A8C8889558262A /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8CADCA7B05853E5914FD36A /* PBXTargetDependency */,
+			);
+			name = Speedlimit;
+			packageProductDependencies = (
+			);
+			productName = Speedlimit;
+			productReference = A9F6D9FFB1C4EF4238D49E0C /* Speedlimit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8000803615F8340FBA52A56C /* SpeedlimitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0BED3CCE7D1EE61FE32F4C /* Build configuration list for PBXNativeTarget "SpeedlimitUITests" */;
+			buildPhases = (
+				2FA11BF66B0D8ABEF9016BAA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				050D5EFAFA7A4F1066DE0D03 /* PBXTargetDependency */,
+			);
+			name = SpeedlimitUITests;
+			packageProductDependencies = (
+			);
+			productName = SpeedlimitUITests;
+			productReference = BE601CC25A790858B82B40C0 /* SpeedlimitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C739DF5D60A5A630E426AF7C /* SpeedlimitNotificationContent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 387345CF4A55F453834588AE /* Build configuration list for PBXNativeTarget "SpeedlimitNotificationContent" */;
+			buildPhases = (
+				AE2B4836200343BFD4B72E82 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedlimitNotificationContent;
+			packageProductDependencies = (
+			);
+			productName = SpeedlimitNotificationContent;
+			productReference = 83EAC1EE536A6283BA9D0884 /* SpeedlimitNotificationContent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		EEB91687F8F1598ACEF93684 /* SpeedlimitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80ACEAC0699104D375C50435 /* Build configuration list for PBXNativeTarget "SpeedlimitTests" */;
+			buildPhases = (
+				6BC9CE2F0257F9FE2926F8FD /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2595218BCB097E06312AFA39 /* PBXTargetDependency */,
+			);
+			name = SpeedlimitTests;
+			packageProductDependencies = (
+			);
+			productName = SpeedlimitTests;
+			productReference = 8D1499A3614B8AF738EA7A3B /* SpeedlimitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1DF5950B9130AF153D43A0B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2898916E1C9173DFC3958739 = {
+						ProvisioningStyle = Automatic;
+					};
+					8000803615F8340FBA52A56C = {
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2898916E1C9173DFC3958739;
+					};
+					C739DF5D60A5A630E426AF7C = {
+						ProvisioningStyle = Automatic;
+					};
+					EEB91687F8F1598ACEF93684 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4953BA3B2FFCD169500F7C4B /* Build configuration list for PBXProject "Speedlimit" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = E77C929886D79BAEC00A8BA9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 718AFB0021ED203BEBD43959 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2898916E1C9173DFC3958739 /* Speedlimit */,
+				C739DF5D60A5A630E426AF7C /* SpeedlimitNotificationContent */,
+				EEB91687F8F1598ACEF93684 /* SpeedlimitTests */,
+				8000803615F8340FBA52A56C /* SpeedlimitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B671D4384C131481F5C14B54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21C1463BBFDE042ACF0F6251 /* Assets.xcassets in Resources */,
+				B253DA9B69FC1206A21377A2 /* PrivacyInfo.xcprivacy in Resources */,
+				D5532360196D0F04286EE9FE /* osm_section_display_shapes.json in Resources */,
+				D673741ECEA8FAAD78326A7D /* tw_traffic.db in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FA11BF66B0D8ABEF9016BAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBBF29E982818A523997AC83 /* MapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC9CE2F0257F9FE2926F8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B312E637385B321CA3B226A /* CCTVLiveTests.swift in Sources */,
+				B491144AC982E81B41C32901 /* CCTVMapTests.swift in Sources */,
+				4D953681F3C87FDD47400EAC /* CoreTests.swift in Sources */,
+				7213D2E876166D179DCB92A4 /* GPSDestinationTests.swift in Sources */,
+				CC7D28D87706EC838A6357A2 /* GPSRecoveryTests.swift in Sources */,
+				14E8961BC4360BBB3D79D74D /* GovernmentUpdateTests.swift in Sources */,
+				A93FECE771FC5536E71AA302 /* LoadingTests.swift in Sources */,
+				4E32678666BC3567AFCE1002 /* SpeedReferenceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE2B4836200343BFD4B72E82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F402B147E2C66B52785BFA95 /* NotificationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02404028006AC9797B38E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5287CC272CA4488A19C82E2 /* AppModel.swift in Sources */,
+				A544B18EABA6060088D6B22D /* BackgroundDataRefresh.swift in Sources */,
+				C911BCD3EC064528126C38CF /* CCTVLiveStream.swift in Sources */,
+				72FCCA45AC54B658D06525B1 /* CCTVService.swift in Sources */,
+				AFF1A49ECE8F5C92CB385632 /* CameraDetails.swift in Sources */,
+				D8D27AE12AF2B8D64BF4DCF3 /* Geometry.swift in Sources */,
+				E1EB25761B308D2E286749DD /* GovernmentDataUpdater.swift in Sources */,
+				E9289D90A116E61811291FB4 /* GovernmentFeed.swift in Sources */,
+				DC571CE4378213C11352B9A7 /* JPEGFrameParser.swift in Sources */,
+				8535222BDBF7C12B0B35F2B1 /* LoadingSafety.swift in Sources */,
+				7ED4CCAF25D2C18A4ADBB3AB /* LocationService.swift in Sources */,
+				2A734DA08C63E5020606B0B3 /* MapScreen.swift in Sources */,
+				A202A51EE0856B2B6B6027EB /* Matching.swift in Sources */,
+				CB92A4092C67FF4EE403A4C0 /* Models.swift in Sources */,
+				6E96F784E5131825B62D4A4F /* NativeSearchField.swift in Sources */,
+				4DD50576F124DBF9BCD4EB98 /* NavigationService.swift in Sources */,
+				6114C612944221F024D7B3A1 /* NotificationService.swift in Sources */,
+				1CB7CB26DBF1ED08E3555284 /* SearchInteractionProbe.swift in Sources */,
+				4281792DBE50A09AF4FC0940 /* SearchService.swift in Sources */,
+				7F0E4E4006746EA277295042 /* SectionOverlayPlan.swift in Sources */,
+				DFAAE693C897DD7D229D648B /* SettingsScreen.swift in Sources */,
+				2AC050C22D05A1D699D060F1 /* SnapshotDecoder.swift in Sources */,
+				673FC7956280B62CD130F0B2 /* SpeedReferenceScreen.swift in Sources */,
+				3B4B9ECF7B3B943F9177E7E1 /* SpeedlimitApp.swift in Sources */,
+				B01DDF546D1D5EF287BDBE10 /* TaiwanMapView.swift in Sources */,
+				6E0A35DE244355E4F3EF2177 /* TrafficStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		050D5EFAFA7A4F1066DE0D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2898916E1C9173DFC3958739 /* Speedlimit */;
+			targetProxy = 4985A025A0389196A4C625DA /* PBXContainerItemProxy */;
+		};
+		2595218BCB097E06312AFA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2898916E1C9173DFC3958739 /* Speedlimit */;
+			targetProxy = FAF80ACBFE987C876F7A4E77 /* PBXContainerItemProxy */;
+		};
+		A8CADCA7B05853E5914FD36A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C739DF5D60A5A630E426AF7C /* SpeedlimitNotificationContent */;
+			targetProxy = 2363C8E99DC9E10766CDB29D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2026AA1382F16AD7C6F820E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = Speedlimit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Speedlimit;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CF1684AF3EF6FF31A4A4CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.SpeedlimitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedlimit.app/Speedlimit";
+			};
+			name = Debug;
+		};
+		3D3F2EF6BE977B2EFB4C848E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				INFOPLIST_FILE = SpeedlimitNotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.app.CameraCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ED01A8FD657997AEF220193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 8;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ED99348726E52ADE5429E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 8;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6091AE3F7810486B94DF37C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				INFOPLIST_FILE = Speedlimit/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Speedlimit;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.app;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B55C8B0C69201A3DC5E479F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				INFOPLIST_FILE = SpeedlimitNotificationContent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.app.CameraCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B9D230F0F3AAA336ACB2A546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.SpeedlimitTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Speedlimit.app/Speedlimit";
+			};
+			name = Release;
+		};
+		EE3F05CD4C41E2B8365F02D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.SpeedlimitUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speedlimit;
+			};
+			name = Release;
+		};
+		FD6D5BC3F36CB231FF6F3178 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.speedlimit.SpeedlimitUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Speedlimit;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		387345CF4A55F453834588AE /* Build configuration list for PBXNativeTarget "SpeedlimitNotificationContent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3F2EF6BE977B2EFB4C848E /* Debug */,
+				B55C8B0C69201A3DC5E479F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4953BA3B2FFCD169500F7C4B /* Build configuration list for PBXProject "Speedlimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ED99348726E52ADE5429E2F /* Debug */,
+				3ED01A8FD657997AEF220193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		80ACEAC0699104D375C50435 /* Build configuration list for PBXNativeTarget "SpeedlimitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CF1684AF3EF6FF31A4A4CE4 /* Debug */,
+				B9D230F0F3AAA336ACB2A546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		8B0BED3CCE7D1EE61FE32F4C /* Build configuration list for PBXNativeTarget "SpeedlimitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6D5BC3F36CB231FF6F3178 /* Debug */,
+				EE3F05CD4C41E2B8365F02D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C758F3E7B32DC77718653DF9 /* Build configuration list for PBXNativeTarget "Speedlimit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2026AA1382F16AD7C6F820E3 /* Debug */,
+				6091AE3F7810486B94DF37C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1DF5950B9130AF153D43A0B6 /* Project object */;
+}

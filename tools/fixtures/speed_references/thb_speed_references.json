@@ -1,0 +1,217 @@
+{
+  "status": "reviewed_web_snapshot_not_machine_feed",
+  "checked_at_utc": "2026-10-01T16:41:20Z",
+  "omitted": "Page 4 could not be fetched; six rows are not included",
+  "rows": [
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "沙崙-八里三交流道0K+000-6K+000",
+      "speed": "80",
+      "notes": "速限為主線道速限(不含機車專用道、輕軌路權、人行自行車道等附屬設施)",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "八里三交流道-林口交流道6k+000-13k+000",
+      "speed": "90 (總重20噸以上大貨車：80)",
+      "notes": "不包含側車道",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "林口交流道-東華路口13k+000-16k+300",
+      "speed": "70",
+      "notes": "不包含側車道(本路段有2處平交路口且為下坡，且重車行駛多，降低速限以利重車停等號誌平交路口)",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "東華路口-新豐二交流道16k+300-60k+500",
+      "speed": "90 (總重20噸以上大貨車：80)",
+      "notes": "不包含側車道",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "新豐二交流道-鳳山溪橋60k+500-66k+082",
+      "speed": "70",
+      "notes": "不包含側車道(本路段與台15線共線，多平面相交路口)",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "鳳山溪橋-浸水橋66k+082-76k+100",
+      "speed": "60",
+      "notes": "本路段為台61線斷鏈路段(現為台15線)，不屬快速公路路段。",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "浸水橋-外埔交流道76k+100-101k+200",
+      "speed": "80",
+      "notes": "不包含側車道",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台61線西部濱海快速公路",
+      "segment": "外埔交流道-十份交流道101k+200-305k+750",
+      "speed": "90 (總重20噸以上大貨車：80)",
+      "notes": "不包含側車道",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台62線東西向快速公路萬里瑞濱線",
+      "segment": "安樂端-瑞濱端0k+000-18k+760",
+      "speed": "80",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台62甲線快速公路基隆瑞芳線",
+      "segment": "基隆端-四腳亭交流道0k+000-5k+622",
+      "speed": "60",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?n=165&sms=13790"
+    },
+    {
+      "road": "台64線東西向快速公路八里新店線",
+      "segment": "台北港端-重翠橋0k+000-14k+500",
+      "speed": "80",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台64線東西向快速公路八里新店線",
+      "segment": "重翠橋-新店端14k+500-28k+668",
+      "speed": "直線段：70、彎道段：60",
+      "notes": "不包含民生陸橋側車道",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台65線快速公路五股土城線",
+      "segment": "五股端-跨土城新興橋0k+000-9k+100",
+      "speed": "80",
+      "notes": "不包含機慢車專用道",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台65線快速公路五股土城線",
+      "segment": "跨土城新興橋-土城交流道9k+100-12k+320",
+      "speed": "60",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台66線東西向快速公路觀音大溪線",
+      "segment": "觀音交流道-市道114線0k+000-10k+100",
+      "speed": "80",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台66線東西向快速公路觀音大溪線",
+      "segment": "市道114線-大溪端10k+100-27k+205",
+      "speed": "90 (總重20噸以上大貨車：80)",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台68線東西向快速公路南寮竹東線",
+      "segment": "南寮端-新中正橋交流道1k+000-16k+800",
+      "speed": "90 (總重20噸以上大貨車：80)",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台68線東西向快速公路南寮竹東線",
+      "segment": "新中正橋交流道-竹東端16k+800-23k+541",
+      "speed": "70",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台68甲線台68銜接竹東市區線",
+      "segment": "台68線-竹東市區0K+000-1K+260",
+      "speed": "50",
+      "notes": "順樁為銜接地方道路採降速措施",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台68甲線台68銜接竹東市區線",
+      "segment": "竹東市區-平面段末端1K+260-0K+940",
+      "speed": "50",
+      "notes": "逆樁平面段",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=2&sms=13790"
+    },
+    {
+      "road": "台68甲線台68銜接竹東市區線",
+      "segment": "高架端-台68線0K+940-0K+000",
+      "speed": "70",
+      "notes": "逆樁高架段",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台72線東西向快速公路後龍汶水線",
+      "segment": "後龍端(台1外環線)-中興2k+410-20k+800",
+      "speed": "90 (總重20噸以上大貨車：80)",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台72線東西向快速公路後龍汶水線",
+      "segment": "中興-獅潭端20k+800-30k+810",
+      "speed": "80",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台74線東西向快速公路快官霧峰線",
+      "segment": "快官交流道-霧峰交流道0k+000-37k+841",
+      "speed": "80",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台76線東西向快速公路芳苑草屯線",
+      "segment": "芳苑端-縣道148 0k+000-11k+620",
+      "speed": "70",
+      "notes": "平面路段，不屬快速公路路段(不含機慢車專用道)",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台76線東西向快速公路芳苑草屯線",
+      "segment": "埔鹽交流道-林厝20k+874-37k+000",
+      "speed": "90 (總重20噸以上大貨車：80)",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台76線東西向快速公路芳苑草屯線",
+      "segment": "林厝-中興系統交流道37k+000-42k+658",
+      "speed": "80",
+      "notes": "八卦山長隧道路段",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台78線東西向快速公路臺西古坑線",
+      "segment": "台西交流道-古坑系統交流道0k+000-43k+520",
+      "speed": "100 (總重20噸以上大貨車：90)",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台82線東西向快速公路東石嘉義線",
+      "segment": "東石-朴子0k+525-8k+080",
+      "speed": "70",
+      "notes": "允許機車通行，不屬快速公路路段",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    },
+    {
+      "road": "台82線東西向快速公路東石嘉義線",
+      "segment": "朴子-水上系統交流道8k+080-34k+740",
+      "speed": "100 (總重20噸以上大貨車：90)",
+      "notes": "",
+      "url": "https://www.thb.gov.tw/News_ExpresswaySpeedLimit.aspx?PageSize=10&n=165&page=3&sms=13790"
+    }
+  ]
+}
