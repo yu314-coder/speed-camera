@@ -1,5 +1,7 @@
 # Speed Camera
 
+<img src="Speedlimit/Assets.xcassets/AppIcon.appiconset/AppIcon.png" alt="Speed Camera app icon" width="128" height="128">
+
 An offline-first iPhone and iPad app for Taiwan enforcement cameras, section-speed corridors, published speed limits and public traffic CCTV. Built with SwiftUI, MapKit, Core Location and SQLite.
 
 Always obey posted signs. Coverage is partial and official files can contain errors. A camera warning is not a guarantee that a road has no other enforcement. Configure navigation and view CCTV only while safely stopped.
